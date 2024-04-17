@@ -118,9 +118,7 @@ public class MainSceneController implements Initializable {
         // Create person list
         ObservableList<Person> list = FXCollections.observableArrayList();
         List<Person> persons = db.read();
-        for(Person p: persons) {
-            list.add(p);
-        }
+        list.addAll(persons);
 //        list.add(new Person(1, "John Smith", LocalDate.of(1980, 10, 10)));
 //        list.add(new Person(2, "Jane Smith", LocalDate.of(1980, 10, 10)));
 //        list.add(new Person(3, "Peter Smith", LocalDate.of(1980, 10, 10)));

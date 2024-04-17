@@ -20,7 +20,7 @@ public class Main extends Application {
         //  loader.getController();
 
 
-        AnchorPane root = FXMLLoader.load(getClass().getResource("/fxml/login.fxml"));
+        AnchorPane root = FXMLLoader.load(getClass().getResource("/fxml/manager.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setTitle("Employee manager");
         primaryStage.setScene(scene);

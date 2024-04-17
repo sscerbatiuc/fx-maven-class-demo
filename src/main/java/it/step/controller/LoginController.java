@@ -1,8 +1,8 @@
 package it.step.controller;
 
+import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
 
-import java.awt.event.ActionEvent;
 
 public class LoginController {
 
